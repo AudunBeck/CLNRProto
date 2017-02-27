@@ -1,0 +1,3 @@
+E:\Documents\Git\CNLR Proto\CLNRProto\Source\CLNRProto\CLNRProto.Build.cs
+E:\Documents\Git\CNLR Proto\CLNRProto\Source\CLNRProto.Target.cs
+E:\Documents\Git\CNLR Proto\CLNRProto\Source\CLNRProtoEditor.Target.cs

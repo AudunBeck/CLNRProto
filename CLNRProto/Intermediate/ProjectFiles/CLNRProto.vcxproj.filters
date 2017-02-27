@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\CLNRProto.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{58F83A0E-C6DE-4B42-9511-AD640F00572C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CLNRProto.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CLNRProtoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{03B05144-33C9-433F-A0F2-3F59F081DBE1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CLNRProto">
+			<UniqueIdentifier>{1D573AD4-9BDD-4427-A038-F1BA4965E02D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CLNRProto\CLNRProto.Build.cs">
+			<Filter>Source\CLNRProto</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CLNRProto\CLNRProto.cpp">
+			<Filter>Source\CLNRProto</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CLNRProto\CLNRProto.h">
+			<Filter>Source\CLNRProto</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CLNRProto\CLNRProtoGameModeBase.cpp">
+			<Filter>Source\CLNRProto</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CLNRProto\CLNRProtoGameModeBase.h">
+			<Filter>Source\CLNRProto</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
