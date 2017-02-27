@@ -9,3 +9,6 @@
 #ifndef CLNRPROTO_CLNRProtoGameModeBase_generated_h
 	#include "CLNRProtoGameModeBase.h"
 #endif
+#ifndef CLNRPROTO_PlayerPawn_generated_h
+	#include "PlayerPawn.h"
+#endif
