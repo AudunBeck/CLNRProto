@@ -2,6 +2,7 @@
 
 #include "CLNRProto.h"
 #include "GunkSpawner.h"
+#include "Gunk.h"
 
 
 // Sets default values
@@ -25,11 +26,11 @@ void AGunkSpawner::BeginPlay()
 {
 	Super::BeginPlay();
 
-	/*UWorld* World = GetWorld();
+	UWorld* World = GetWorld();
 
 	if (World)
 	{
-		for (int i{ 0 }; i <= GunkAmount; i++)
+		for (int i{ 1 }; i <= GunkAmount; i++)
 		{
 			FVector SpawnLocation = GetActorLocation() + FVector(FMath::FRandRange(-50.f, 50.f), FMath::FRandRange(-50.f, 50.f), 0);
 			AGunk *tempGunk = World->SpawnActor<AGunk>(GunkBlueprint, SpawnLocation, FRotator::ZeroRotator);
@@ -39,7 +40,7 @@ void AGunkSpawner::BeginPlay()
 		}
 	}
 
-	Destroy();*/
+	Destroy();
 	
 }
 

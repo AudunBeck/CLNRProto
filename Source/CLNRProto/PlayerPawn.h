@@ -36,7 +36,7 @@ public:
 		USceneComponent* OurVisibleComponent;
 
 	UPROPERTY(EditAnywhere)
-		float MoveSpeed;
+		float MoveSpeed = 100;
 
 	UPROPERTY(EditAnywhere)
 		float CurrentKit;

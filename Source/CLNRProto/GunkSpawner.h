@@ -27,7 +27,7 @@ public:
 
 	TArray<AGunk*> GunkArray;
 	int ArraySize;
-	int GunkAmount = 1000000;
+	int GunkAmount = 10;
 
 	UPROPERTY(EditAnywhere)
 		USceneComponent* OurVisibleComponent;
